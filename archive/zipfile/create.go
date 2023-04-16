@@ -9,7 +9,7 @@ import (
 // Create creates a zip file containing the given files.
 //
 //	files := map[string]string{
-//	  "./testdata/create-1.txt": "f1.txt",
+//	  "./testdata/create-1.txt": "f1.txt", // source file name : destination file name
 //	  "./testdata/create-2.txt": "data/f2.txt",
 //	}
 //
