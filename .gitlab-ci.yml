@@ -11,7 +11,7 @@ unit_tests:
     script:
         - gotestsum --junitfile unit-tests.xml --packages="./..." -- -coverprofile coverage.out
         - go tool cover -func coverage.out
-    coverage: total:\s+\(statements\)\s+(\d+.\d+\%)
+    coverage: /total:\t+\(statements\)\t+(\d+\.\d+)%/
     artifacts:
         reports:
             junit:
