@@ -1,4 +1,4 @@
-![spartan logo](./assets/spartan.png)
+![spartan logo](https://gitlab.com/tobiaskoch/spartan/-/raw/main/assets/spartan.png)
 
 # Spartan
 
