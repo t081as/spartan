@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- Added io/directory package
+
 ## 1.0.0 - 2023-04-16
 - Added io/file package
 - Added archive/zipfile package
