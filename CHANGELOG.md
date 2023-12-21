@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.0 - 2023-12-21
 - Added io/directory package
 - Added build package
 
