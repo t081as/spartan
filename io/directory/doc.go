@@ -1,2 +1,2 @@
-// Package directory contains directory-related helper functions.
+// Package directory provides directory-related functionality.
 package directory

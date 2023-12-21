@@ -1,2 +1,2 @@
-// Package tgzfile contains helper functions for gzipped tar files.
+// Package tgzfile provides functionality related to gzipped tar files.
 package tgzfile

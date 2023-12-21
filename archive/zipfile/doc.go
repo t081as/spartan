@@ -1,2 +1,2 @@
-// Package zipfile contains zip-related helper functions.
+// Package zipfile provides functionality related to zip files.
 package zipfile

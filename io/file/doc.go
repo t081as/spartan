@@ -1,2 +1,2 @@
-// Package file contains file-related helper functions.
+// Package file provides file-related functionality.
 package file
