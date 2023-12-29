@@ -9,16 +9,17 @@ import (
 type Target struct {
 	Name        string // Application name
 	Os          string // Operating system (GOOS)
-	Architcture string // Architecture (GOARCH)
+	Arch        string // Architecture (GOARCH)
+	Architcture string // Deprecated: use Arch instead
 }
 
 // OutPath returns a relative path to a operating system and architecture
 // specific directory in a `dist` subdirectory.
 func (t *Target) OutPath() string {
-	return filepath.Join(".", "dist", fmt.Sprintf("%s-%s", t.Os, t.Architcture))
+	return filepath.Join(".", "dist", fmt.Sprintf("%s-%s", t.Os, t.Arch))
 }
 
-// OutFileName combines OutPath with the application name
+// OutFileName combines OutPath with the application name.
 func (t *Target) OutFileName() string {
 	return filepath.Join(t.OutPath(), t.Name)
 }
