@@ -9,9 +9,9 @@ import (
 
 func TestOutPath(t *testing.T) {
 	target := Target{
-		Name:        "myname",
-		Os:          "windows",
-		Architcture: "amd64",
+		Name: "myname",
+		Os:   "windows",
+		Arch: "amd64",
 	}
 
 	outPath := target.OutPath()
@@ -26,16 +26,16 @@ func TestOutPath(t *testing.T) {
 		t.Errorf("Expected directory `dist` but got `%s`", outPathParts[0])
 	}
 
-	if outPathParts[1] != fmt.Sprintf("%s-%s", target.Os, target.Architcture) {
-		t.Errorf("Expected directory `%s-%s` but got `%s`", target.Os, target.Architcture, outPathParts[1])
+	if outPathParts[1] != fmt.Sprintf("%s-%s", target.Os, target.Arch) {
+		t.Errorf("Expected directory `%s-%s` but got `%s`", target.Os, target.Arch, outPathParts[1])
 	}
 }
 
 func TestOutFileName(t *testing.T) {
 	target := Target{
-		Name:        "myname",
-		Os:          "windows",
-		Architcture: "amd64",
+		Name: "myname",
+		Os:   "windows",
+		Arch: "amd64",
 	}
 
 	outPath := target.OutFileName()
@@ -50,8 +50,8 @@ func TestOutFileName(t *testing.T) {
 		t.Errorf("Expected directory `dist` but got `%s`", outPathParts[0])
 	}
 
-	if outPathParts[1] != fmt.Sprintf("%s-%s", target.Os, target.Architcture) {
-		t.Errorf("Expected directory `%s-%s` but got `%s`", target.Os, target.Architcture, outPathParts[1])
+	if outPathParts[1] != fmt.Sprintf("%s-%s", target.Os, target.Arch) {
+		t.Errorf("Expected directory `%s-%s` but got `%s`", target.Os, target.Arch, outPathParts[1])
 	}
 
 	if outPathParts[2] != target.Name {
