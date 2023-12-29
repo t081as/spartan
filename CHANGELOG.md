@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.2.0 - 2023-12-29
 - Added Arch field to Target definition
 
 ## 1.1.0 - 2023-12-21
