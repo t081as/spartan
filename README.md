@@ -21,4 +21,4 @@ func main() {
 ```
 
 ## License
-**spartan** © 2023 [Tobias Koch](https://www.tk-software.de). Released under a [BSD-style license](https://gitlab.com/tobiaskoch/spartan/-/blob/main/LICENSE).
+**spartan** © 2023-2024 [Tobias Koch](https://www.tk-software.de). Released under a [BSD-style license](https://gitlab.com/tobiaskoch/spartan/-/blob/main/LICENSE).
